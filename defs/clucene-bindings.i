@@ -23,8 +23,8 @@ namespace boost{
 	typedef unsigned short uint16_t;
 	typedef int int32_t;
 	typedef unsigned int uint32_t;
-	typedef long int64_t;
-	typedef unsigned long uint64_t;
+	typedef long long int64_t;
+	typedef unsigned long long uint64_t;
 }
 typedef signed char int8_t;
 typedef unsigned char uint8_t;
@@ -32,9 +32,9 @@ typedef short int16_t;
 typedef unsigned short uint16_t;
 typedef int int32_t;
 typedef unsigned int uint32_t;
-typedef long int64_t;
-typedef unsigned long uint64_t;
-%apply long long {long};
+typedef long long int64_t;
+typedef unsigned long long uint64_t;
+//%apply long long {long};
 
 //mapping for wchar_t
 %include "LuceneChar.i"
@@ -79,11 +79,11 @@ typedef unsigned long uint64_t;
 //forward declaration of all classes
 %include lucene_fwd.i
 
-//shared stuff first.
-%include "lucene_shared.i";
-
 //the lucene exceptions handler
 %include LuceneExceptions.i
+
+//shared stuff first.
+%include "lucene_shared.i";
 
 #ifndef TESTING
   //maps and sets and arrays, etc

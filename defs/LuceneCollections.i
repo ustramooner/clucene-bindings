@@ -31,7 +31,8 @@ namespace Lucene
 LUCENE_COLLECTION(DoubleCollection, Double, double)
 LUCENE_COLLECTION(ByteCollection, Byte,  uint8_t )
 LUCENE_COLLECTION(IntCollection, Integer,  int32_t )
-LUCENE_COLLECTION(LongCollection, Long,  int64_t )
+//LUCENE_COLLECTION(LongCollection, Long,  int64_t )
+LUCENE_COLLECTION(LongCollection, Long,  long long )
 LUCENE_COLLECTION(StringCollection, String, Lucene::String)
 
 LUCENE_COLLECTION(InsanityCollection, Insanity, Lucene::InsanityPtr)
