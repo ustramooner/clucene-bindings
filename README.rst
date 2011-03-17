@@ -15,5 +15,5 @@ Instructions on checking out clucene-bindings with git:
  git submodule update --init
 
 Please see documentation, issues, etc in each subproject:
-* https://github.com/ustramooner/python-lucenepp
+ * https://github.com/ustramooner/python-lucenepp
 
