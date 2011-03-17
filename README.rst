@@ -24,8 +24,8 @@ read the README.rst in a submodule of interest.
 
 Instructions on checking out clucene-bindings with git:
 
-# git clone git://github.com/ustramooner/clucene-bindings.git
-cd clucene-bindings
-git submodule update --init
+  git clone git://github.com/ustramooner/clucene-bindings.git
+  cd clucene-bindings
+  git submodule update --init
 
 
